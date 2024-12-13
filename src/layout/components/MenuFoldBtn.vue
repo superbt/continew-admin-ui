@@ -2,7 +2,7 @@
   <a-button size="mini" class="gi_hover_btn menu-fold-btn" @click="onClick">
     <template #icon>
       <icon-menu-fold v-if="!appStore.menuCollapse" :size="18" :stroke-width="3" />
-      <icon-menu-unfold v-else :size="18" :stroke-width="3" />
+      <icon-menu-unfold v-else :size="18" :stroke-width="3" />xbt
     </template>
   </a-button>
 

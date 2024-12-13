@@ -1,7 +1,7 @@
 <template>
   <a-card
     class="general-card"
-    title="快捷操作"
+    title="快捷操作 xbt"
     :header-style="{ paddingBottom: '0' }"
     :body-style="{ padding: '24px 20px 16px 20px' }"
   >
@@ -28,12 +28,12 @@
 const router = useRouter()
 
 const links = [
-  { text: '用户管理', icon: 'user', path: '/system/user' },
-  { text: '角色管理', icon: 'user-group', path: '/system/role' },
-  { text: '菜单管理', icon: 'menu', path: '/system/menu' },
-  { text: '文件管理', icon: 'file', path: '/system/file' },
-  { text: '代码生成', icon: 'code', path: '/code/generator' },
-  { text: '系统日志', icon: 'history', path: '/monitor/log' },
+  { text: '用户管理xbt', icon: 'user', path: '/system/user' },
+  { text: '角色管理xbt', icon: 'user-group', path: '/system/role' },
+  { text: '菜单管理xbt', icon: 'menu', path: '/system/menu' },
+  { text: '文件管理xbt', icon: 'file', path: '/system/file' },
+  { text: '代码生成xbt', icon: 'code', path: '/code/generator' },
+  { text: '系统日志xbt', icon: 'history', path: '/monitor/log' },
 ]
 </script>
 

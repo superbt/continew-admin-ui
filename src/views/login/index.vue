@@ -1,5 +1,6 @@
 <template>
   <div v-if="isDesktop" class="login pc">
+
     <h3 class="login-logo">
       <img v-if="logo" :src="logo" alt="logo" />
       <img v-else src="/logo.svg" alt="logo" />
@@ -7,14 +8,16 @@
     </h3>
 
     <a-row align="stretch" class="login-box">
+
       <a-col :xs="0" :sm="12" :md="13">
         <div class="login-left">
-          <img class="login-left__img" src="@/assets/images/banner.png" alt="banner" />
+          <img class="login-left__img" src="@/assets/images/banner.png" alt="banner xbt" />
         </div>
       </a-col>
+
       <a-col :xs="24" :sm="12" :md="11">
         <div class="login-right">
-          <h3 v-if="isEmailLogin" class="login-right__title">邮箱登录</h3>
+          <h3 v-if="isEmailLogin" class="login-right__title">1邮箱登录</h3>
           <EmailLogin v-if="isEmailLogin" />
           <a-tabs v-else v-model:activeKey="activeTab" class="login-right__form">
             <a-tab-pane key="1" title="账号登录">
@@ -25,10 +28,10 @@
             </a-tab-pane>
           </a-tabs>
           <div class="login-right__oauth">
-            <a-divider orientation="center">其他登录方式</a-divider>
+            <a-divider orientation="center">2其他登录方式</a-divider>
             <div class="list">
-              <div v-if="isEmailLogin" class="mode item" @click="toggleLoginMode"><icon-user /> 账号/手机号登录</div>
-              <div v-else class="mode item" @click="toggleLoginMode"><icon-email /> 邮箱登录</div>
+              <div v-if="isEmailLogin" class="mode item" @click="toggleLoginMode"><icon-user /> 3账号/手机号登录</div>
+              <div v-else class="mode item" @click="toggleLoginMode"><icon-email />4 邮箱登录</div>
               <a class="item" title="使用 Gitee 账号登录" @click="onOauth('gitee')">
                 <GiSvgIcon name="gitee" :size="24" />
               </a>
@@ -60,7 +63,7 @@
     <a-row align="stretch" class="login-box">
       <a-col :xs="24" :sm="12" :md="11">
         <div class="login-right">
-          <h3 v-if="isEmailLogin" class="login-right__title">邮箱登录</h3>
+          <h3 v-if="isEmailLogin" class="login-right__title">5邮箱登录</h3>
           <EmailLogin v-if="isEmailLogin" />
           <a-tabs v-else v-model:activeKey="activeTab" class="login-right__form">
             <a-tab-pane key="1" title="账号登录">
@@ -74,10 +77,10 @@
       </a-col>
     </a-row>
     <div class="login-right__oauth">
-      <a-divider orientation="center">其他登录方式</a-divider>
+      <a-divider orientation="center">6其他登录方式</a-divider>
       <div class="list">
-        <div v-if="isEmailLogin" class="mode item" @click="toggleLoginMode"><icon-user /> 账号/手机号登录</div>
-        <div v-else class="mode item" @click="toggleLoginMode"><icon-email /> 邮箱登录</div>
+        <div v-if="isEmailLogin" class="mode item" @click="toggleLoginMode"><icon-user /> 7账号/手机号登录</div>
+        <div v-else class="mode item" @click="toggleLoginMode"><icon-email />8 邮箱登录</div>
         <a class="item" title="使用 Gitee 账号登录" @click="onOauth('gitee')">
           <GiSvgIcon name="gitee" :size="24" />
         </a>

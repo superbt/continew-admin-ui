@@ -22,12 +22,12 @@
 <script setup lang="ts">
 const images = [
   {
-    src: `https://continew.top/qrcode-text.jpg?${new Date().getTime()}`,
-    url: 'https://continew.top/about/intro.html',
+    src: `http://124.221.255.18:9000/btlog/3306e9e3a31f4a69b30ed8e43168f317.JPG?${new Date().getTime()}`,
+    url: 'http://shenbtw.online',
   },
   {
-    src: `https://continew.top/sponsor.jpg?${new Date().getTime()}`,
-    url: 'https://continew.top/sponsor.html',
+    src: `http://124.221.255.18:9000/btlog/3306e9e3a31f4a69b30ed8e43168f317.JPG?${new Date().getTime()}`,
+    url: 'http://shenbtw.online',
   },
 ]
 </script>

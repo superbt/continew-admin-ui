@@ -1,5 +1,5 @@
 <template>
-  <a-card class="general-card" title="最新动态" style="margin-bottom: 14px">
+  <a-card class="general-card" title="最新动态xbt" style="margin-bottom: 14px">
     <template #extra>
       <a-dropdown>
         <a-link>更多</a-link>
@@ -167,7 +167,7 @@ const getDataList = async () => {
 }
 
 onMounted(() => {
-  getDataList()
+  //getDataList()
 })
 </script>
 

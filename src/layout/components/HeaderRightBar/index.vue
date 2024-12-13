@@ -2,7 +2,7 @@
   <a-row justify="end" align="center">
     <a-space size="medium">
       <!-- 项目配置 -->
-      <a-tooltip content="项目配置" position="bl">
+      <a-tooltip content="项目配置xbt" position="bl">
         <a-button size="mini" class="gi_hover_btn" @click="SettingDrawerRef?.open">
           <template #icon>
             <icon-settings :size="18" />

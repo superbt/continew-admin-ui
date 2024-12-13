@@ -6,7 +6,7 @@
     :body-style="{ padding: '15px 20px 13px 20px' }"
   >
     <template #extra>
-      <a-link @click="router.replace({ path: '/system/notice' })">更多</a-link>
+      <a-link @click="router.replace({ path: '/system/notice' })">更多xbt</a-link>
     </template>
     <a-skeleton v-if="loading" :loading="loading" :animation="true">
       <a-skeleton-line :rows="5" />

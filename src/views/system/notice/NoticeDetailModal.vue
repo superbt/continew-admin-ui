@@ -9,13 +9,13 @@
           <a-space>
             <span>
               <icon-user class="icon" />
-              <span class="label">发布人：</span>
+              <span class="label">发布人xbt：</span>
               <span>{{ dataDetail?.createUserString }}</span>
             </span>
             <a-divider direction="vertical" />
             <span>
               <icon-history class="icon" />
-              <span class="label">发布时间：</span>
+              <span class="label">发布时间xbt：</span>
               <span>{{ dataDetail?.effectiveTime ? dataDetail?.effectiveTime : dataDetail?.createTime }}</span>
             </span>
           </a-space>

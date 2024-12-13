@@ -25,11 +25,11 @@
 
 <script setup lang="ts">
 const links = [
-  { text: '项目简介', url: 'https://continew.top/admin/intro/what-is.html' },
-  { text: '快速开始', url: 'https://continew.top/admin/intro/quick-start.html' },
-  { text: '常见问题', url: 'https://continew.top/faq.html' },
-  { text: '更新日志', url: 'https://continew.top/admin/other/changelog.html' },
-  { text: '贡献指南', url: 'https://continew.top/admin/other/contributing.html' },
+  { text: '项目简介xbt', url: 'https://continew.top/admin/intro/what-is.html' },
+  { text: '快速开始xbt', url: 'https://continew.top/admin/intro/quick-start.html' },
+  { text: '常见问题xbt', url: 'https://continew.top/faq.html' },
+  { text: '更新日志xbt', url: 'https://continew.top/admin/other/changelog.html' },
+  { text: '贡献指南xbt', url: 'https://continew.top/admin/other/contributing.html' },
   { text: '赞助支持 💖', url: 'https://continew.top/sponsor.html' },
 ]
 </script>

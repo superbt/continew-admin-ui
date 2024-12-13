@@ -5,7 +5,7 @@
         <Avatar :src="userStore.avatar" :name="userStore.nickname" :size="68" />
         <div class="welcome">
           <p class="hello">{{ goodTimeText() }}！{{ userStore.nickname }}</p>
-          <p>北海虽赊，扶摇可接；东隅已逝，桑榆非晚。</p>
+          <p>北海虽赊，扶摇可接；东隅已逝，桑榆非晚。hi bt</p>
         </div>
       </a-space>
     </a-row>

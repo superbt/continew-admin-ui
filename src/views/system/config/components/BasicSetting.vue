@@ -72,8 +72,12 @@
           </a-upload>
         </template>
       </a-form-item>
-      <a-form-item class="input-item" field="SITE_TITLE" :label="siteConfig.SITE_TITLE.name">
-        <a-input v-model.trim="form.SITE_TITLE" class="input-width" placeholder="请输入系统标题" :max-length="18" show-word-limit />
+
+<!--
+ <a-form-item class="input-item" field="SITE_TITLE" :label="siteConfig.SITE_TITLE.name">
+ <a-input v-model.trim="form.SITE_TITLE" class="input-width" placeholder="请输入系统标题" :max-length="18" show-word-limit />-->
+      <a-form-item class="input-item" field="SITE_TITLE" :label="xbt">
+        <a-input  placeholder="请输入系统标题1" :max-length="18" show-word-limit />
       </a-form-item>
       <a-form-item class="input-item" field="SITE_DESCRIPTION" :label="siteConfig.SITE_DESCRIPTION.name">
         <a-textarea

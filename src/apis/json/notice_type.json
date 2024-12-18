@@ -1,0 +1,20 @@
+{
+  "code": "0",
+  "msg": "ok",
+  "success": true,
+  "timestamp": 1734509015300,
+  "data": [
+    {
+      "label": "通知",
+      "value": "1",
+      "disabled": null,
+      "extra": "blue"
+    },
+    {
+      "label": "活动",
+      "value": "2",
+      "disabled": null,
+      "extra": "orangered"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "code": "0",
+  "msg": "ok",
+  "success": true,
+  "timestamp": 1734509013045,
+  "data": [
+    {
+      "label": "SITE_BEIAN",
+      "value": null,
+      "disabled": null
+    },
+    {
+      "label": "SITE_COPYRIGHT",
+      "value": "Copyright © 2022 - present ContiNew Admin 版权所有",
+      "disabled": null
+    },
+    {
+      "label": "SITE_DESCRIPTION",
+      "value": "持续迭代优化的前后端分离中后台管理系统框架",
+      "disabled": null
+    },
+    {
+      "label": "SITE_FAVICON",
+      "value": "/favicon.ico",
+      "disabled": null
+    },
+    {
+      "label": "SITE_LOGO",
+      "value": "/logo.svg",
+      "disabled": null
+    },
+    {
+      "label": "SITE_TITLE",
+      "value": "xbt",
+      "disabled": null
+    }
+  ]
+}
